@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shop elegant jewellery, accessories and fragrances from Lady of Valor Collection." />
+  <title>Lady of Valor Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home"><span class="brand-mark">LV</span><span>Lady of Valor</span></a>
+  <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <button class="cart-button" id="cartButton" aria-label="Open cart">Bag <span id="cartCount">0</span></button>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">Jewellery • Accessories • Fragrances</p>
+    <h1>Wear your confidence.</h1>
+    <p>Affordable pieces selected to help you feel elegant, expressive and unforgettable.</p>
+    <a class="primary-button" href="#shop">Explore the collection</a>
+  </div>
+  <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-card">Elegant.<br>Bold.<br>Yours.</div></div>
+</section>
+<section class="shop-section" id="shop">
+  <div class="section-heading"><div><p class="eyebrow">Our collection</p><h2>Find your next favourite</h2></div><label class="search"><span>Search</span><input id="searchInput" type="search" placeholder="Earrings, perfume…"></label></div>
+  <div class="filters" id="filters"></div>
+  <div class="product-grid" id="productGrid"></div>
+</section>
+<section class="about" id="about">
+  <div><p class="eyebrow">About us</p><h2>Everyday elegance, thoughtfully selected.</h2></div>
+  <p>Lady of Valor Collection brings together stylish jewellery, accessories and fragrances at accessible prices. Order directly through WhatsApp for friendly, personalised service.</p>
+</section>
+<section class="contact" id="contact"><h2>Need help choosing?</h2><p>Send us a WhatsApp message and we will help you find the right item.</p><a class="primary-button whatsapp-link" href="#">Chat on WhatsApp</a></section>
+</main>
+<footer><span>© <span id="year"></span> Lady of Valor Collection</span><span>Made with confidence.</span></footer>
+<div class="overlay" id="overlay"></div>
+<aside class="cart" id="cart"><div class="cart-header"><h2>Your bag</h2><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div class="cart-total"><span>Total</span><strong id="cartTotal">KSh 0</strong></div><button class="primary-button full" id="checkoutButton">Order via WhatsApp</button><p class="small">Update the WhatsApp number in <code>app.js</code>.</p></div></aside>
+<script src="products.js"></script><script src="app.js"></script>
+</body></html>
