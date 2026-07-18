@@ -1,5 +1,5 @@
 
-const WHATSAPP_NUMBER = "254700000000"; // Replace with your WhatsApp number
+const WHATSAPP_NUMBER = "2547117 652692"; // Replace with your WhatsApp number
 const products = window.PRODUCTS || [];
 let activeCategory = "All";
 let cart = JSON.parse(localStorage.getItem("lv-cart") || "{}");
