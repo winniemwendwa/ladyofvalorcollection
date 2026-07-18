@@ -201,50 +201,80 @@ window.PRODUCTS = [
   },
   {
     "id": 21,
-    "name": "Shirt Dress",
+    "name": "Black Floral Off-Shoulder Summer Dress",
     "category": "Fashion",
     "price": null,
     "size": "Available in selected sizes",
-    "image": null,
+    "image": "summer-dress-black.jpg",
     "stock": 1,
-    "tag": "Enquire"
+    "tag": "Summer Dress"
   },
   {
     "id": 22,
-    "name": "Chiffon Short-Sleeve Shirt",
+    "name": "Pink Floral Off-Shoulder Summer Dress",
     "category": "Fashion",
     "price": null,
-    "size": "Available in selected colours",
-    "image": null,
+    "size": "Available in selected sizes",
+    "image": "summer-dress-pink.jpg",
     "stock": 1,
-    "tag": "Enquire"
+    "tag": "Summer Dress"
   },
   {
     "id": 23,
-    "name": "Chiffon Long-Sleeve Shirt",
+    "name": "Cream & Blue Floral Summer Dress",
     "category": "Fashion",
     "price": null,
-    "size": "Available in selected colours",
-    "image": null,
+    "size": "Available in selected sizes",
+    "image": "summer-dress-blue.jpg",
     "stock": 1,
-    "tag": "Enquire"
+    "tag": "Summer Dress"
   },
   {
     "id": 24,
-    "name": "Summer Dress",
+    "name": "White Shirt Dress with Black Sleeve Detail",
     "category": "Fashion",
     "price": null,
     "size": "Available in selected sizes",
-    "image": null,
+    "image": "shirt-dress-white.jpg",
     "stock": 1,
-    "tag": "Enquire"
+    "tag": "Shirt Dress"
   },
   {
     "id": 25,
-    "name": "Official Dress",
+    "name": "White Floral Sleeveless Belted Dress",
     "category": "Fashion",
     "price": null,
     "size": "Available in selected sizes",
+    "image": "official-dress-white-floral.jpg",
+    "stock": 1,
+    "tag": "Official Dress"
+  },
+  {
+    "id": 26,
+    "name": "Light Blue Chiffon Short-Sleeve Top",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected sizes",
+    "image": "chiffon-top-blue.jpg",
+    "stock": 1,
+    "tag": "Chiffon Top"
+  },
+  {
+    "id": 27,
+    "name": "Fashion Brooch Bracelet",
+    "category": "Bracelets",
+    "price": 100,
+    "size": "One size",
+    "image": "fashion-bracelet-100.jpg",
+    "stock": 1,
+    "tag": "Accessories"
+  },
+  {
+    "id": 28,
+    "name": "Chiffon Long-Sleeve Shirt",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected colours and sizes",
     "image": null,
     "stock": 1,
     "tag": "Enquire"

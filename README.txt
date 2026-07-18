@@ -1,10 +1,18 @@
-LADY OF VALOR COLLECTION – GITHUB UPLOAD
+LADY OF VALOR COLLECTION - GITHUB WEBSITE
 
+This package includes:
+- Perfume catalogue with product photos
+- Fashion photos and bracelet photo
+- Shopping bag
+- Visible M-Pesa number at checkout: 0117 652 692
+- WhatsApp checkout: +254 117 652 692
+
+UPLOAD TO GITHUB
 1. Extract this ZIP.
-2. In your GitHub repository, delete the old website files.
-3. Upload ALL contents of this folder to the repository root:
-   index.html, styles.css, app.js, products.js and the complete assets folder.
-4. Commit changes. GitHub Pages will update in 1–3 minutes.
-5. Hard refresh your live site with Ctrl+F5.
+2. Open the ladyofvalorcollection repository.
+3. Delete/replace the old index.html, styles.css, app.js, products.js and assets folder.
+4. Upload ALL files and the complete assets folder from this package.
+5. Commit changes and wait 1-3 minutes.
+6. Refresh the live site with Ctrl+F5.
 
-WhatsApp and M-Pesa number used: +254 117 652 692 / 0117 652 692.
+Products without confirmed prices show 'Price on request' and open WhatsApp enquiries.
