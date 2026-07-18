@@ -1,317 +1,252 @@
 window.PRODUCTS = [
   {
-    "id": "IN0001",
-    "name": "Earring Caplon",
-    "description": "Hypoallegenic Caplon",
-    "price": 150.0,
-    "stock": 7,
-    "category": "Earrings",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0002",
-    "name": "Earing200",
-    "description": "Flora Earing",
-    "price": 200.0,
-    "stock": 24,
-    "category": "Earrings",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0003",
-    "name": "Earing201",
-    "description": "Xuping",
-    "price": 400.0,
-    "stock": 2,
-    "category": "Earrings",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0004",
-    "name": "Earing400",
-    "description": "Classic Earing",
-    "price": 400.0,
-    "stock": 7,
-    "category": "Earrings",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0005",
-    "name": "Earing100",
-    "description": "Simple Earinggold",
-    "price": 100.0,
-    "stock": 12,
-    "category": "Earrings",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0006",
-    "name": "Earing101",
-    "description": "Simple Earingsliver",
-    "price": 100.0,
-    "stock": 5,
-    "category": "Earrings",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0007",
-    "name": "Brooch",
-    "description": "Clothe Accessory",
-    "price": 100.0,
-    "stock": 10,
-    "category": "Accessories",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0008",
-    "name": "Necklace200",
-    "description": "Necklace",
-    "price": 200.0,
-    "stock": 17,
-    "category": "Necklaces",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0009",
-    "name": "Necklace400",
-    "description": "Necklace",
-    "price": 400.0,
-    "stock": 1,
-    "category": "Necklaces",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0010",
-    "name": "Bracelet100",
-    "description": "Bead Bracelet",
-    "price": 100.0,
-    "stock": 8,
-    "category": "Bracelets",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0011",
-    "name": "Bracelet200",
-    "description": "Metallic Bracelet",
-    "price": 200.0,
-    "stock": 5,
-    "category": "Bracelets",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0012",
-    "name": "Bracelet300",
-    "description": "Metallic Bracelet",
-    "price": 300.0,
-    "stock": 0,
-    "category": "Bracelets",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0013",
-    "name": "Anklet",
-    "description": "Mettalic Anklet",
-    "price": 200.0,
-    "stock": 1,
-    "category": "Anklets",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0014",
-    "name": "Perfumesmartcollection",
-    "description": "15Ml",
-    "price": 250.0,
-    "stock": 0,
+    "id": 1,
+    "name": "Smart Collection My Way No. 581",
     "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0015",
-    "name": "Perfumesmartcollection",
-    "description": "30Ml",
-    "price": 500.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0016",
-    "name": "Khair Fusion",
-    "description": "50Ml",
-    "price": 1000.0,
-    "stock": 1,
-    "category": "Perfumes",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0017",
-    "name": "Khair Fusion",
-    "description": "100Ml",
-    "price": 2000.0,
-    "stock": 1,
-    "category": "Perfumes",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0018",
-    "name": "Khair Confection",
-    "description": "50Ml",
-    "price": 1000.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0019",
-    "name": "Khair Confection",
-    "description": "100Ml",
-    "price": 2000.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0020",
-    "name": "Khair Pistacio",
-    "description": "50Ml",
-    "price": 1000.0,
-    "stock": 1,
-    "category": "Perfumes",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0021",
-    "name": "Uniflame Perfume Mashmarllow",
-    "description": "50Ml",
-    "price": 500.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0022",
-    "name": "Uniflame Perfume Pink Yara",
-    "description": "50Ml",
-    "price": 500.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0023",
-    "name": "Uniflame Perfume Silver Ramz",
-    "description": "50Ml",
-    "price": 500.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0024",
-    "name": "Kay Ali Vanilla Rocksugar",
-    "description": "50Ml",
-    "price": 1000.0,
-    "stock": 3,
-    "category": "Perfumes",
-    "status": "In stock"
-  },
-  {
-    "id": "IN0025",
-    "name": "Kay Ali Pistachio",
-    "description": "50Ml",
-    "price": 1000.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0026",
-    "name": "Only You Perfume",
-    "description": "30Ml",
-    "price": 250.0,
-    "stock": 0,
-    "category": "Perfumes",
-    "status": "Out of stock"
-  },
-  {
-    "id": "IN0027",
-    "name": "Gift Boxes",
-    "description": "Small Gift Boxes",
-    "price": 100.0,
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-my-way-581.jpeg",
     "stock": 6,
-    "category": "Accessories",
-    "status": "In stock"
+    "tag": "For Her"
   },
   {
-    "id": "IN0028",
-    "name": "Black Soap",
-    "description": "Detox Black Soap",
-    "price": 450.0,
+    "id": 2,
+    "name": "Smart Collection Sauvage No. 440",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-sauvage-440.jpeg",
+    "stock": 5,
+    "tag": "For Him"
+  },
+  {
+    "id": 3,
+    "name": "Only You No. 8224",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "30 ml",
+    "image": "only-you-8224.jpeg",
     "stock": 4,
-    "category": "Accessories",
-    "status": "In stock"
+    "tag": "For Her"
   },
   {
-    "id": "IN0029",
-    "name": "Coconut Oil60",
-    "description": "60Ml",
-    "price": 100.0,
-    "stock": 10,
-    "category": "Accessories",
-    "status": "In stock"
+    "id": 4,
+    "name": "Yara Pink",
+    "category": "Perfumes",
+    "price": 500,
+    "size": "50 ml",
+    "image": "yara-pink.jpeg",
+    "stock": 1,
+    "tag": "Sweet"
   },
   {
-    "id": "IN0030",
-    "name": "Coconut Oil400",
-    "description": "400Ml",
-    "price": 650.0,
-    "stock": 18,
-    "category": "Accessories",
-    "status": "In stock"
+    "id": 5,
+    "name": "Smart Collection 306 Women",
+    "category": "Perfumes",
+    "price": 500,
+    "size": "25 ml",
+    "image": "smart-306-women.jpeg",
+    "stock": 3,
+    "tag": "For Her"
   },
   {
-    "id": "IN0031",
-    "name": "Coconut Oil1Kg",
-    "description": "1 Kg",
-    "price": 1400.0,
-    "stock": 14,
-    "category": "Accessories",
-    "status": "In stock"
+    "id": 6,
+    "name": "Ramz Silver",
+    "category": "Perfumes",
+    "price": 500,
+    "size": "50 ml",
+    "image": "ramz-silver.jpeg",
+    "stock": 1,
+    "tag": "Unisex"
   },
   {
-    "id": "IN0032",
-    "name": "Honey500Gram",
-    "description": "500Grams",
-    "price": 500.0,
-    "stock": 0,
-    "category": "Accessories",
-    "status": "Out of stock"
+    "id": 7,
+    "name": "Smart Collection 9PM Rebel",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-9pm-rebel.jpeg",
+    "stock": 4,
+    "tag": "For Him"
   },
   {
-    "id": "IN0033",
-    "name": "Honey 1Kg",
-    "description": "1Kg",
-    "price": 1000.0,
-    "stock": 0,
-    "category": "Accessories",
-    "status": "Out of stock"
+    "id": 8,
+    "name": "Marshmallow Blush",
+    "category": "Perfumes",
+    "price": 500,
+    "size": "50 ml",
+    "image": "marshmallow-blush.jpeg",
+    "stock": 1,
+    "tag": "Sweet"
   },
   {
-    "id": "IN0034",
-    "name": "Honey300Grams",
-    "description": "300Grams",
-    "price": 300.0,
-    "stock": 0,
-    "category": "Accessories",
-    "status": "Out of stock"
+    "id": 9,
+    "name": "Yara",
+    "category": "Perfumes",
+    "price": 500,
+    "size": "50 ml",
+    "image": "yara.jpeg",
+    "stock": 1,
+    "tag": "For Her"
   },
   {
-    "id": "",
-    "name": "Coconut Oil1Kg",
-    "description": "Kg",
-    "price": 0.0,
-    "stock": 0,
-    "category": "Accessories",
-    "status": "Out of stock"
+    "id": 10,
+    "name": "Kayali Yum Pistachio Gelato",
+    "category": "Perfumes",
+    "price": 1000,
+    "size": "50 ml",
+    "image": "kayali-yum-pistachio.jpeg",
+    "stock": 1,
+    "tag": "Premium"
+  },
+  {
+    "id": 11,
+    "name": "Kayali Vanilla Candy Rock Sugar",
+    "category": "Perfumes",
+    "price": 1000,
+    "size": "50 ml",
+    "image": "kayali-vanilla-candy-1.jpeg",
+    "stock": 4,
+    "tag": "Premium"
+  },
+  {
+    "id": 12,
+    "name": "Kayali Vanilla Candy Rock Sugar – Alternate Pack",
+    "category": "Perfumes",
+    "price": 1000,
+    "size": "50 ml",
+    "image": "kayali-vanilla-candy-2.jpeg",
+    "stock": 2,
+    "tag": "Premium"
+  },
+  {
+    "id": 13,
+    "name": "Khair Confection",
+    "category": "Perfumes",
+    "price": 1000,
+    "size": "50 ml",
+    "image": "khair-confection.jpeg",
+    "stock": 1,
+    "tag": "Premium"
+  },
+  {
+    "id": 14,
+    "name": "Khair Fusion",
+    "category": "Perfumes",
+    "price": 1000,
+    "size": "50 ml",
+    "image": "khair-fusion.jpeg",
+    "stock": 2,
+    "tag": "Premium"
+  },
+  {
+    "id": 15,
+    "name": "Khair Pistachio",
+    "category": "Perfumes",
+    "price": 1000,
+    "size": "50 ml",
+    "image": "khair-pistachio.jpeg",
+    "stock": 1,
+    "tag": "Premium"
+  },
+  {
+    "id": 16,
+    "name": "Smart Collection Black Opium No. 393",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-black-opium-393.jpeg",
+    "stock": 5,
+    "tag": "For Her"
+  },
+  {
+    "id": 17,
+    "name": "Smart Collection 212 VIP Men No. 322",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-212-vip-men-322.jpeg",
+    "stock": 4,
+    "tag": "For Him"
+  },
+  {
+    "id": 18,
+    "name": "Smart Collection My Way",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-my-way.jpeg",
+    "stock": 5,
+    "tag": "For Her"
+  },
+  {
+    "id": 19,
+    "name": "Smart Collection Dunhill Desire No. 94",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-dunhill-desire-94.jpeg",
+    "stock": 3,
+    "tag": "For Him"
+  },
+  {
+    "id": 20,
+    "name": "Smart Collection Sauvage",
+    "category": "Perfumes",
+    "price": 250,
+    "size": "15 ml",
+    "image": "smart-sauvage.jpeg",
+    "stock": 5,
+    "tag": "For Him"
+  },
+  {
+    "id": 21,
+    "name": "Shirt Dress",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected sizes",
+    "image": null,
+    "stock": 1,
+    "tag": "Enquire"
+  },
+  {
+    "id": 22,
+    "name": "Chiffon Short-Sleeve Shirt",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected colours",
+    "image": null,
+    "stock": 1,
+    "tag": "Enquire"
+  },
+  {
+    "id": 23,
+    "name": "Chiffon Long-Sleeve Shirt",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected colours",
+    "image": null,
+    "stock": 1,
+    "tag": "Enquire"
+  },
+  {
+    "id": 24,
+    "name": "Summer Dress",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected sizes",
+    "image": null,
+    "stock": 1,
+    "tag": "Enquire"
+  },
+  {
+    "id": 25,
+    "name": "Official Dress",
+    "category": "Fashion",
+    "price": null,
+    "size": "Available in selected sizes",
+    "image": null,
+    "stock": 1,
+    "tag": "Enquire"
   }
 ];

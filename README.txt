@@ -1,7 +1,10 @@
-LADY OF VALOR WEBSITE
+LADY OF VALOR COLLECTION – GITHUB UPLOAD
 
-1. Open index.html in a browser to preview the website.
-2. In app.js, replace 254700000000 with your WhatsApp number in international format.
-3. Product information comes from products.js, generated from your Excel inventory.
-4. Add real product photos later by replacing the product initials area with image URLs.
-5. Upload all files to Netlify, GitHub Pages, cPanel or another web host.
+1. Extract this ZIP.
+2. In your GitHub repository, delete the old website files.
+3. Upload ALL contents of this folder to the repository root:
+   index.html, styles.css, app.js, products.js and the complete assets folder.
+4. Commit changes. GitHub Pages will update in 1–3 minutes.
+5. Hard refresh your live site with Ctrl+F5.
+
+WhatsApp and M-Pesa number used: +254 117 652 692 / 0117 652 692.

@@ -1,44 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Shop elegant jewellery, accessories and fragrances from Lady of Valor Collection." />
-  <title>Lady of Valor Collection</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Lady of Valor Collection – perfumes, fashion and accessories in Kenya.">
+<meta name="theme-color" content="#100d13"><title>Lady of Valor Collection</title>
+<link rel="icon" href="assets/lady-of-valor-logo.png"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#home"><span class="brand-mark">LV</span><span>Lady of Valor</span></a>
-  <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-  <button class="cart-button" id="cartButton" aria-label="Open cart">Bag <span id="cartCount">0</span></button>
-</header>
+<div class="topbar">Orders & enquiries: <a href="https://wa.me/254117652692" target="_blank" rel="noopener">WhatsApp +254 117 652 692</a></div>
+<header><a class="brand" href="#home"><img src="assets/lady-of-valor-logo.png" alt="Lady of Valor Collection"><span><b>Lady of Valor</b><small>COLLECTION</small></span></a><button id="menuBtn" class="menu">☰</button><nav id="nav"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#fashion">Fashion</a><a href="#about">About</a><a href="#contact">Contact</a></nav><button id="cartBtn" class="cartbtn">Bag <span id="cartCount">0</span></button></header>
 <main>
-<section class="hero" id="home">
-  <div class="hero-copy">
-    <p class="eyebrow">Jewellery • Accessories • Fragrances</p>
-    <h1>Wear your confidence.</h1>
-    <p>Affordable pieces selected to help you feel elegant, expressive and unforgettable.</p>
-    <a class="primary-button" href="#shop">Explore the collection</a>
-  </div>
-  <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-card">Elegant.<br>Bold.<br>Yours.</div></div>
-</section>
-<section class="shop-section" id="shop">
-  <div class="section-heading"><div><p class="eyebrow">Our collection</p><h2>Find your next favourite</h2></div><label class="search"><span>Search</span><input id="searchInput" type="search" placeholder="Earrings, perfume…"></label></div>
-  <div class="filters" id="filters"></div>
-  <div class="product-grid" id="productGrid"></div>
-</section>
-<section class="about" id="about">
-  <div><p class="eyebrow">About us</p><h2>Everyday elegance, thoughtfully selected.</h2></div>
-  <p>Lady of Valor Collection brings together stylish jewellery, accessories and fragrances at accessible prices. Order directly through WhatsApp for friendly, personalised service.</p>
-</section>
-<section class="contact" id="contact"><h2>Need help choosing?</h2><p>Send us a WhatsApp message and we will help you find the right item.</p><a class="primary-button whatsapp-link" href="#">Chat on WhatsApp</a></section>
+<section class="hero" id="home"><div class="heroText"><p class="eyebrow">Perfume • Fashion • Accessories</p><h1>Wear your elegance.<br><em>Own your valor.</em></h1><p>Curated fragrances and stylish fashion for confident women and men.</p><div class="actions"><a class="btn gold" href="#shop">Shop collection</a><a class="btn outline" href="https://wa.me/254117652692?text=Hello%20Lady%20of%20Valor%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank">Chat on WhatsApp</a></div><div class="trust"><span>✓ M-Pesa accepted</span><span>✓ Kenya delivery</span><span>✓ Personal service</span></div></div><div class="heroLogo"><img src="assets/lady-of-valor-logo.png" alt="Lady of Valor logo"></div></section>
+<section class="feature"><div><b>Authentic selection</b><span>Carefully selected fragrances</span></div><div><b>Easy ordering</b><span>Order directly on WhatsApp</span></div><div><b>Simple payment</b><span>M-Pesa 0117 652 692</span></div></section>
+<section class="shop" id="shop"><div class="sectionHead"><div><p class="eyebrow">Our collection</p><h2>Shop your favourites</h2></div><input id="search" type="search" placeholder="Search perfume or fashion…"></div><div id="filters" class="filters"></div><div id="grid" class="grid"></div></section>
+<section class="fashionCallout" id="fashion"><div><p class="eyebrow">Lady of Valor Fashion</p><h2>Dress with confidence</h2><p>We also stock shirt dresses, chiffon short- and long-sleeve shirts, summer dresses and official dresses. Ask for available colours, sizes and current prices.</p><a class="btn gold" href="https://wa.me/254117652692?text=Hello%20Lady%20of%20Valor%2C%20please%20send%20me%20the%20available%20fashion%20styles%2C%20sizes%20and%20prices." target="_blank">View fashion on WhatsApp</a></div><div class="fashionArt">LV</div></section>
+<section class="about" id="about"><img src="assets/lady-of-valor-logo.png" alt=""><div><p class="eyebrow">About us</p><h2>Where elegance meets confidence.</h2><p>Lady of Valor Collection is a Kenyan boutique offering accessible perfumes, fashion and accessories. Our purpose is to help every customer find pieces that feel beautiful, bold and uniquely theirs.</p></div></section>
+<section class="info"><article><b>1</b><h3>Add to bag</h3><p>Select products and quantities.</p></article><article><b>2</b><h3>Order on WhatsApp</h3><p>Your order is prepared automatically.</p></article><article><b>3</b><h3>Pay by M-Pesa</h3><p>Send payment to <strong>0117 652 692</strong> after stock is confirmed.</p></article><article><b>4</b><h3>Delivery</h3><p>Delivery fee and timing depend on location.</p></article></section>
+<section class="contact" id="contact"><p class="eyebrow">Personal shopping support</p><h2>Need help choosing?</h2><p>Share your budget, occasion and preferred scent or style.</p><a class="btn gold" href="https://wa.me/254117652692?text=Hello%20Lady%20of%20Valor%2C%20I%20need%20help%20choosing%20a%20product." target="_blank">Message us</a></section>
 </main>
-<footer><span>© <span id="year"></span> Lady of Valor Collection</span><span>Made with confidence.</span></footer>
-<div class="overlay" id="overlay"></div>
-<aside class="cart" id="cart"><div class="cart-header"><h2>Your bag</h2><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div class="cart-total"><span>Total</span><strong id="cartTotal">KSh 0</strong></div><button class="primary-button full" id="checkoutButton">Order via WhatsApp</button><p class="small">Update the WhatsApp number in <code>app.js</code>.</p></div></aside>
+<footer><div class="footBrand"><img src="assets/lady-of-valor-logo.png" alt=""><span><b>Lady of Valor Collection</b><small>Bold • Beautiful • Timeless</small></span></div><div><b>Contact</b><a href="https://wa.me/254117652692">+254 117 652 692</a><span>M-Pesa: 0117 652 692</span></div><div><b>Quick links</b><a href="#shop">Shop</a><a href="#fashion">Fashion</a><a href="#about">About</a></div><p>© <span id="year"></span> Lady of Valor Collection</p></footer>
+<a class="waFloat" href="https://wa.me/254117652692?text=Hello%20Lady%20of%20Valor" target="_blank" aria-label="WhatsApp">WA</a>
+<div id="overlay" class="overlay"></div><aside id="cart" class="cart"><div class="cartHead"><div><p class="eyebrow">Your selection</p><h2>Shopping bag</h2></div><button id="closeCart">×</button></div><div id="cartItems" class="cartItems"></div><div class="cartFoot"><div class="total"><span>Total</span><b id="total">KSh 0</b></div><button id="checkout" class="btn gold full">Order via WhatsApp</button><small>We confirm stock and delivery before payment.<br>M-Pesa: 0117 652 692</small></div></aside>
 <script src="products.js"></script><script src="app.js"></script>
 </body></html>
